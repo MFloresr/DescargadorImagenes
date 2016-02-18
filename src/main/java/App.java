@@ -12,6 +12,7 @@ public class App {
     private void createUIComponents() {
         DescargadorView = new JPanel();
     }
+
     public static void main(String[] args) {
         JFrame frame = new JFrame("Descargador Imagenes");
         frame.setContentPane(new App().DescargadorView);
