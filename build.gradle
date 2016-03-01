@@ -16,7 +16,7 @@ sourceSets {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'App'
+        attributes 'Main-Class': 'ImagesInstalator'
     }
 }
 
@@ -37,6 +37,6 @@ task uberjar(type: Jar, dependsOn: [':compileJava', ':processResources']) {
     from sourceSets.main.allSource
     classifier='sources'
     manifest {
-        attributes 'Main-Class': 'App'
+        attributes 'Main-Class': 'ImagesInstalator'
     }
 }
